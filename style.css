@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,'poppins';
+}
+body{
+    background: linear-gradient(90deg, rgb(73, 73, 255), rgb(93, 93, 255), rgb(124, 124, 255));
+}
+.box{
+    background-color: aliceblue;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+.box input{
+    background-color: rgb(84, 84, 237);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 9px;
+    margin-left: 20%;
+    margin-top: 50px;
+    border: 0;
+}
+.box input:hover{
+    background-color:rgb(160, 177, 193);
+    color: blue;
+}
+.q button{
+    background-color: aliceblue;
+    width: 350px;
+    padding: 12px;
+    margin-left: 5%;
+    margin-top: 5px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.q button:hover{
+ color: aliceblue;
+ background-color: black;
+}
+.q p{
+    font-size: 30px;
+    margin-left: 5%;
+    font-weight: bolder;
+    color: blue;
+}
+.q div{
+    margin-left: 23px;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:  rgb(84, 84, 237);
+    color: white;
+    transition: 0.3;
+}
+.q div:hover{
+    background-color: white;
+    color:  rgb(84, 84, 237);
+}
+.im{
+     padding: 20px;
+    margin-left: 29%;
+    margin-top: 20px;
+}
+.im img{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+.im p{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(40, 40, 122);
+    margin-left: 10px;
+}
